@@ -1,0 +1,60 @@
+<!--1 tapsirma-->
+.our-classes {
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.class-box {
+    display: inline-block;
+    font-family: sans-serif;
+    width: 350px;
+    margin: 10px;
+    padding: 25px 0;
+    border: 1px solid grey;
+    border-radius: 8px;
+    text-align: center;
+    border-bottom: 6px solid gray;
+}
+
+/* Klass turlari */
+.elementary {
+    border-bottom-color: rgb(46, 204, 113);
+}
+
+.middle {
+    border-bottom-color: rgb(52, 152, 219);
+}
+
+.high {
+    border-bottom-color: rgb(230, 126, 34);
+}
+<!--2 tapsirma-->
+.logo {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.logo-icon {
+    font-size: 18px;
+    color: rgb(255, 178, 0);
+}
+<!--3 tapsirma-->
+.cat-link {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+
+.cat-icon {
+    margin-right: 10px;
+}
+
+.cat-name {
+    font-size: 16px;
+}
