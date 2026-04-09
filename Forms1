@@ -1,0 +1,47 @@
+<!--1 tapsirma-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <h1>Oziniz haqida maglumat beriw</h1>
+        <form>
+            <p>Atiniz:</p>
+            <input type="text" required> 
+            </input>
+            <br>
+            <p>Email:</p>
+            <input type="email" required>
+            </input>
+            <br>
+            <p>Password:</p>
+            <input type="password" required>
+                
+            </input>
+            <br>
+            <label>Jinsińiz:</label>
+    <label class="inline"><input type="radio" name="gender" value="male"> Er</label>
+    <label class="inline"><input type="radio" name="gender" value="female"> Ayel</label>
+    <br><br>
+     <label>Xobiy:</label>
+    <label class="inline"><input type="checkbox" name="service" value="shaxmat">shaxmat</label>
+    <label class="inline"><input type="checkbox" name="service" value="kitap oqiw">kitap oqiw</label>
+    <label class="inline"><input type="checkbox" name="service" value="sayaxat etiw">sayaxat etiw</label>
+  <label>Kommentariya jazıń:</label><br>
+        <textarea name="comment" rows="5" cols="40" placeholder="Oziniz haqida..."></textarea>
+
+    </fieldset>
+
+    <br>
+
+  
+    
+       <label for="resume">Suwret</label>
+    <input type="file" id="image" name="image">  
+    <br><br>
+     <input type="submit" value="Jiberiw"> 
+        </form>
+    </body>
+</html>
+
