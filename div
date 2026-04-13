@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>youtube cloune</title>
+        <style>
+            .div{
+                background-color: red;
+                height: 150px;
+                margin-bottom: 20px;
+                width: 150px;
+            }
+            .class{
+                background-color: green;
+                height: 150px;
+                
+                width: 150px;
+                border-radius: 50%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="div"></div>
+        <div class="class"></div>
+    </body>
+</html>
