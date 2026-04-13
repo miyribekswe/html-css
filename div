@@ -121,3 +121,79 @@
 
 </body>
 </html>
+<!--5 tapsirma-->
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<title>Chat Input</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+  }
+
+  .chat-box {
+    width: 350px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .input-box {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .input-box input {
+    flex: 1;
+    border: none;
+    padding: 8px;
+    outline: none;
+  }
+
+  .btn {
+    background: #2da3e3;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+
+  .btn:hover {
+    background: #1b8ac9;
+  }
+</style>
+</head>
+<body>
+
+<div class="chat-box">
+  <img src="har.jpeg" class="avatar">
+
+  <div class="input-box">
+    <input type="text" placeholder="Bul jerge jaziw...">
+  </div>
+
+  <button class="btn">Jiberiw</button>
+</div>
+
+</body>
+</html>
