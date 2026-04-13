@@ -197,3 +197,63 @@
 
 </body>
 </html>
+<!--8 tapsirma-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
+
+    <div class="search-box">
+        <input type="text" placeholder="Search Google or type a URL">
+    </div>
+
+    <div class="buttons">
+        <button>Google Search</button>
+        <button>I'm Feeling Lucky</button>
+    </div>
+</div>
+
+</body>
+</html>
+<!--style css kodi-->
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center; /* MUHIM: markazga olib keladi */
+    margin-top: 150px;
+}
+
+.search-box input {
+    width: 400px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    border: 1px solid #ccc;
+}
