@@ -65,3 +65,59 @@
 
 </body>
 </html>
+<!--7 tapsirma orinlandi-->
+<<!DOCTYPE html>
+<html>
+<head>
+<style>
+.card {
+  width: 200px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.follow-btn {
+  margin-top: 10px;
+  background-color: blue;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 15px;
+  display: inline-block;
+  text-decoration: none;
+}
+.p{
+    color: #5d655d;
+}
+.img{
+    width: 100px;
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+  <img src="hacer.jpg" alt="" class="img">
+  <h3>miyribekswe</h3>
+  <p class="p">6 followers</p>
+  <a href="#" class="follow-btn">Follow</a>
+</div>
+<br>
+<div class="card">
+  <img src="ftn.jpeg" alt="" class="img">
+  <h3>khogolohaev</h3>
+  <p class="p">4 followers</p>
+  <a href="#" class="follow-btn">Follow</a>
+</div>
+<br>
+<div class="card">
+  <img src="har.jpeg" alt="" class="img">
+  <h3>miyirbekswe2</h3>
+  <p class="p">5 followers</p>
+  <a href="#" class="follow-btn">Follow</a>
+</div>
+<br>
+
+</body>
+</html>
