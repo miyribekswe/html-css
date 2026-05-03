@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <title>Miyweler</title>
+    <style>
+        .uz:hover{
+            color: #ffb355;
+        }
+        .h1:hover{
+            text-shadow: 4px 4px 3px black;
+        }
+        .p1:hover{
+            background-color: green;
+            color: white;
+        }
+        .p2:hover{
+            transition-duration: 2s;
+            background-color: red;
+            color: white;
+        }
+        .p3:hover{
+            background-color: yellow;
+            color: white;
+        }
+        .bt:hover{
+            border: 2px dotted #ffb355;
+            background-color: white;
+            color: #ffb22b;
+        }
+        .btn:hover{
+            background-color: green;
+            color: white;
+            transition-duration: 2s;
+            box-shadow: -4px -3px 3px green;
+        }
+    </style>
+</head>
+<body>
+     <a href="#" class="uz">Uzum market</a>
+     <h1 class="h1">Miyweler</h1>
+     <p class="p1">Alma</p>
+     <p class="p2">Pomidor</p>
+     <p class="p3">Banan</p>
+     <button class="bt">Sebet</button>
+     <button class="btn">Satip aliw</button>
+</body>
+</html>
